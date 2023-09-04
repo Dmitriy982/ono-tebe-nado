@@ -10,8 +10,8 @@
     <title>Оно тебе надо — аукцион вещей, в которые никто не верил</title>
   </head>
   <body>
-    <header>
-      <nav class="header__menu">
+    <header class="header__menu">
+      <nav>
         <ul class="header__links-list">
           <li class="header__links-list-item_no-bullit">
             <a class="header__links__no__decoration header__links-list-item" href="#">главная</a>
@@ -23,10 +23,11 @@
             <a class="header__links-list-item links__underline" href="#">об аукционе</a>
           </li>
         </ul>
+      </nav>
         <a class="grid_center" href="#">
           <img src="./images/logo-black.svg" alt="Черный логотип" class="header__logo">
         </a>
-        <address class="header__links-list-item address grid_end">
+        <address class="address grid_end">
           <a href="tel:+79995555555" class="links__underline">            
               +9 999 555 5555            
           </a>
@@ -36,7 +37,6 @@
           <p>наб. Принсенграхт 263-265, 
             Амстердам</p>
         </address>
-      </nav>
     </header>
     <main>
       <section class="cover">                  
@@ -56,7 +56,7 @@
         <h2 class="lots__heading">Лоты</h2>
         <ul class="cards">
           <li>
-            <a class="card card_first header__links__no__decoration" href="#">
+            <a class="card card_first" href="#">
               <h3 class="card__title">
                 Фильм режиссёра, который бросил киношколу
               </h3>
@@ -66,7 +66,7 @@
             </a>
           </li>
           <li>
-            <a class="card card_second header__links__no__decoration" href="#">
+            <a class="card card_second" href="#">
               <h3 class="card__title">
                 Книга, где описан один скучный день из жизни рекламного агента
               </h3>
@@ -79,7 +79,7 @@
             </a>
           </li>
             <li>
-              <a class="card card_third header__links__no__decoration" href="#">
+              <a class="card card_third" href="#">
                 <h3 class="card__title">
                   Картина, которую повторит даже 5-летний сын маминой подруги
                 </h3>
@@ -126,7 +126,7 @@
       </section>
     </main>
     <footer class="footer">
-      <address class="header__links-list-item address">
+      <address class="address">
         <a href="tel:+79995555555" class="links__underline">
             +9 999 555 5555          
         </a>
